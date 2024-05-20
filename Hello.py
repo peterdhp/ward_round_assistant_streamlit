@@ -75,7 +75,8 @@ def ward_round_summary_with_list(model):
                 "system",
                 """You are medical student shadowing a ward round of the orthopedic department. 
 Given the transcript of the ward round and the patient list table, write a SOAP progress note. 
-ONLY include patients in the transcript given. Unless for diagnostic/medical terms use Korean
+ONLY include patients in the transcript given. If not enough information is given simply output blank. 
+Unless for diagnostic/medical terms use Korean
 
 An example of what the summary of each patient should be :
 환자 :  홍길동 님 #if you can not identify the patient, leave it blank
