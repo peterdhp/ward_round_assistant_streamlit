@@ -1,0 +1,11 @@
+altair
+numpy
+pandas
+pydeck
+streamlit
+streamlit-audiorecorder
+langchain-core
+langchain-openai
+datetime
+openai
+pydub
