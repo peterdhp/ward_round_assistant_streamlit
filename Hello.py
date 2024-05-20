@@ -5,7 +5,6 @@ import time
 import json
 import os
 import io
-from dotenv import load_dotenv
 from io import BytesIO
 from audiorecorder import audiorecorder
 from langchain_core.output_parsers import StrOutputParser
@@ -15,8 +14,6 @@ from langchain_openai import ChatOpenAI
 
 from openai import OpenAI
 
-
-load_dotenv()
 
 openai_api_key = st.secrets['OPENAI_API_KEY']
 CLOVA_INVOKE_URL = st.secrets['CLOVA_INVOKE_URL']
